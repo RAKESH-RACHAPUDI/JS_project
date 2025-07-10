@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta property="og:title" content="Delicious Recipes - Discover Your Favorite Dishes" />
+<meta property="og:description" content="Find step-by-step instructions for making mouth-watering recipes. Explore a variety of cuisines and start cooking like a pro!" />
+<meta property="og:image" content="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpg?quality=90&resize=556,505" />
+<!-- <meta property="og:url" content="https://github-thiru.github.io/META-TAG/" /> -->
+<meta property="og:type" content="website" />
+
+    <title>Recipe Search</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Thiru's Precious & Delicious Recipe "Explorer"</h1>
+
+        
+        <input type="text" id="searchinput" placeholder="Search for a recipe ..." />
+        <button onclick="searchrecipe()">Search</button>
+       <button id="voiceButton">🎙️ Voice Search</button>
+   
+
+
+       
+        <div id="dynamic-food-cards" class="food-cards"></div>
+
+       
+        <div id="recipecontainer" class="items"></div>
+    </div>
+
+   
+<button id="backButton" onclick="showDynamicFoodCards()" style="display: none;">Back</button>
+
+<!-- <div id="dynamic-food-cards"></div> -->
+<a href="./index3.html" class="redirect-link">My Cart</a>
+
+<button id="logoutButton" style="display:none;" onclick="logout()">Logout</button>
+
+<div id="cartContainer">
+    <!-- <h2>Cart</h2> -->
+    <ul id="cartItems"></ul>   <!-- This will list the items in the cart -->
+</div>
+
+
+<!--------------- -->
+
+
+
+
+
+    <script src="script2.js"></script>
+</body>
+</html>
